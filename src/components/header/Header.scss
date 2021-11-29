@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-bottom: 1.1px solid grey;
+
+    h1 {
+        padding-bottom: 20px;
+    }
+
+    .headerLink {
+        text-decoration: none;
+        margin-right: 15px;
+        color: black;
+
+        &:hover {
+            color: blue;
+            border-bottom: 1px dashed red;
+        }
+    }
+}
