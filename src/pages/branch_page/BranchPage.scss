@@ -1,0 +1,13 @@
+.branchPage {
+    width: 100%;
+    height: calc(100vh - 103px);
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        text-align: center;
+        background-color: #071f40;
+        color: white;
+        border: none;
+    }
+}

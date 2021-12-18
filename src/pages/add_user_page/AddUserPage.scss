@@ -1,0 +1,53 @@
+.addUserPage {
+    height: calc(100vh - 101px);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .userFormContainer {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+
+        .addUserForm {
+            display: flex;
+            flex-direction: column;
+            width: inherit;
+            
+            .formInput {
+                width: 350px;
+                height: 50px;
+                margin-bottom: 30px;
+
+                border: none;
+                border-bottom: 1.1px solid grey;
+                -moz-outline-width: 0;
+                outline-width: 0;
+                
+            }
+
+            .buttonContainer {
+                width: 350px;
+                margin-bottom: 30px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+
+                button {
+                    padding: 15px;
+                    width: 100px;
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #818181;
+                    font-size: 16px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #cecece;
+                    }
+                }
+            }
+        }
+    }
+}

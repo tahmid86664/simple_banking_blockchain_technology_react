@@ -1,8 +1,16 @@
 .users {
-    height: 400px;
+    height: 95%;
     width: 100%;
     background-color: #ffd117;
     display: flex;
+    flex-direction: column;
     overflow: auto;
     align-items: center;
+
+    .usersPanel {
+        display: flex;
+        height: 50%;
+        width: inherit;
+        padding-top: 15px;
+    }
 }

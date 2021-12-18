@@ -1,14 +1,12 @@
 import React from 'react';
 import './HomePage.scss';
 
-import Users from '../../components/users/Users';
-import Transactions from '../../components/transactions/Transactions';
+import Branches from '../../components/branches/Branches';
 
 const HomePage = () => {
     return (
         <div className="homePage">
-            <Users />
-            <Transactions />
+            <Branches />
         </div>
     )
 }

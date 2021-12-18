@@ -2,10 +2,10 @@ import React from 'react';
 import Transaction from '../transaction/Transaction';
 import './Transactions.scss';
 
-const Transactions = () => {
+const Transactions = ({ accNo }) => {
     return (
         <div className="transactions">
-            <h2>All Transactions</h2>
+            <h2>All Transactions of {accNo}</h2>
             <div className="transactions__container">
                 <Transaction />
             </div>

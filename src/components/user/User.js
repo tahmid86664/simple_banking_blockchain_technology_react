@@ -1,7 +1,11 @@
 import React from 'react';
 import './User.scss';
 
-const User = ({username, accNo, accType, balance, lastTransaction}) => {
+const User = ({username, accNo, accType, balance, lastTransaction, parentCallback}) => {
+    const handleSubmit = () => {
+        parentCallback(accNo)
+    }
+
     return (
         <div className="user">
             <div className="user__header">
@@ -15,7 +19,7 @@ const User = ({username, accNo, accType, balance, lastTransaction}) => {
                 <span className="userInfo"><span className="infoHead">Last Transaction Date</span>{lastTransaction}</span>
             </div>
             <div className="user__footer">
-                <button className="showTransactionBut">
+                <button className="showTransactionBut" onClick={handleSubmit}>
                     Show all transaction
                 </button>
             </div>

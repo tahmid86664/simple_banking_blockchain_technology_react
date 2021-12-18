@@ -1,0 +1,35 @@
+.branches {
+    width: 100%;
+    height: calc(100vh - 103px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .upper {
+        display: flex;
+        height: 50%;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            height: 100%;
+            width: 48%;
+            color: black;
+            cursor: unset;
+        }
+    }
+
+    .lower {
+        display: flex;
+        height: 50%;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            height: 100%;
+            width: 48%;
+            color: black;
+            cursor: unset;
+        }
+    }
+}

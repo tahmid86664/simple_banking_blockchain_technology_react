@@ -8,6 +8,7 @@ const Header = () => {
             <h1>Simple Banking System with Blockchain Technology 🔥🔥🔥</h1>
             <Link className="headerLink" to="/">Home</Link>
             <Link className="headerLink" to="/add-transaction">Add transaction</Link>
+            <Link className="headerLink" to="/add-user">Add User</Link>
         </div>
     )
 }
